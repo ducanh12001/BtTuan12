@@ -1,0 +1,22 @@
+{
+  "name": "bt-main",
+  "version": "1.0.0",
+  "description": "cài đặt nodejs và các module ejs,body-parser,express,path thông qua lệnh npm install npm i <module> chạy bằng lệnh node main.js Trang định tuyến gồm trang home,students.port 5000,ban đầu localhost:5000/home",
+  "main": "main.js",
+  "scripts": {
+    "start": "main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "DUCANH"
+  ],
+  "author": "DUCANH",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "path": "^0.12.7",
+    "router": "^1.3.6"
+  }
+}
